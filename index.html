@@ -1,0 +1,31 @@
+<html ng-app="BitChat">
+
+<head>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div ng-controller="UserCreationCtrl as user">
+        {{user.test}}
+    </div>
+
+    <div ng-controller="ChatCtrl as chat">
+        {{chat.test}} </div>
+
+</body>
+
+
+
+<script src="./js/angular.min.js"></script>
+<script src="./js/angular-ui-router.min.js"></script>
+<script src="./js/socket.io.js"></script>
+
+<script src="./app.js"></script>
+
+<script src="./js/user-creation-controller.js"></script>
+<script src="./js/chat-controller.js"></script>
+
+
+</html>

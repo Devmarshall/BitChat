@@ -1,0 +1,30 @@
+{
+  "name": "bitchat",
+  "version": "1.0.0",
+  "description": "Simple chat application built with Node.js, Angular and Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devmarshall/BitChat.git"
+  },
+  "keywords": [
+    "Node",
+    "socket.io",
+    "chat",
+    "devMarshall",
+    "simple",
+    "mean",
+    "easy",
+    "angular",
+    "node.js"
+  ],
+  "author": "devMarshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Devmarshall/BitChat/issues"
+  },
+  "homepage": "https://github.com/Devmarshall/BitChat#readme"
+}
