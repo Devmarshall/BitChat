@@ -7,8 +7,18 @@
 
         $rootScope.$on('new-user', function (event, username) {
             $scope.username = username;
-            console.log(username);
         })
+
+        $scope.$watch(function () {
+            return $scope.username
+        }, function () {
+
+            if ($scope.username) {
+                console.log('This is the new username: ', $scope.username);
+
+            }
+        })
+
 
     })
 
