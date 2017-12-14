@@ -3,29 +3,30 @@
 <head>
     <meta charset="utf-8">
 
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/angular-ui-router.min.js"></script>
+    <script src="./js/socket.io.js"></script>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/user-creation-controller.js"></script>
+    <script src="./js/chat-controller.js"></script>
+
 </head>
 
 <body>
 
-    <div ng-controller="UserCreationCtrl as user">
-        {{user.test}}
+    <div ng-controller="UserCreationCtrl">
+
+        <input type="text" ng-model="user.username">
+        <button ng-click="createUser(user.username)">Submit User</button>
+
+        {{test}}
     </div>
 
-    <div ng-controller="ChatCtrl as chat">
-        {{chat.test}} </div>
+    <div ng-controller="ChatCtrl">
+        This is the username: {{username}}
+    </div>
 
 </body>
-
-
-
-<script src="./js/angular.min.js"></script>
-<script src="./js/angular-ui-router.min.js"></script>
-<script src="./js/socket.io.js"></script>
-
-<script src="./app.js"></script>
-
-<script src="./js/user-creation-controller.js"></script>
-<script src="./js/chat-controller.js"></script>
-
 
 </html>

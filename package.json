@@ -26,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/Devmarshall/BitChat/issues"
   },
-  "homepage": "https://github.com/Devmarshall/BitChat#readme"
+  "homepage": "https://github.com/Devmarshall/BitChat#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
 }
